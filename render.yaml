@@ -3,7 +3,7 @@ services:
     name: futurepath-ai
     runtime: static
     buildCommand: npm install && npm run build
-    publishDir: ./dist
+    publishDir: ./docs
     domains:
       - futurepath.com
       - www.futurepath.com
